@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class largestcontain {
+public class lat {
 
     public static int storeWater(ArrayList<Integer> height){
         int maxWater = 0;
