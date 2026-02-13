@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class let7 {
+public class Solutlet7ion {
 
     public static int reverse(int x) {
         int rev = 0;
