@@ -5,15 +5,15 @@ public class binary {
         int start = 0;
         int end = numbers.length-1;
 
-        while(start <= end){
+        while(start <= end){//mid find
             int mid = (start + end)/2;
 
             if(numbers[mid] == key){//found
                 return mid;
             }
-            if(numbers[mid] < key ){
+            if(numbers[mid] < key ){//right
                 start = mid+1;
-            }else{
+            }else{// left
                 end = mid-1;
             }
         }
@@ -27,3 +27,4 @@ public class binary {
         System.out.println("index for the key is :"+ binarysearch(numbers, key));
     }
 }
+ 
