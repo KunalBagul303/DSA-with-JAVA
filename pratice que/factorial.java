@@ -13,6 +13,6 @@ public class factorial {
 
     public static void main(String[] args) {
         int n  = 5;
-        fact(n);
+        System.out.println(fact(n));
     }
 }
