@@ -13,7 +13,7 @@ public class tentooneee {
    }
 
    public static void main(String[] var0) {
-      byte var1 = 8;
+      byte var1 = 99;
       Decending(var1);
    }
 }
