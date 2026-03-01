@@ -18,7 +18,7 @@ public class revers {
     }
 
     public static void main(String[] args) {
-     int numbers[] = {2,3,4,6,7,8,9,10};
+     int numbers[] = {2,3,4,7,7,8,9,10};
         
         //print
         reversethearr(numbers);
