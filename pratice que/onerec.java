@@ -12,7 +12,7 @@ public class onerec {
 
 
     public static void main(String[] args) {
-        int n  = 8;
+        int n  = 6;
         onerecarsion(n);
     }
 }
