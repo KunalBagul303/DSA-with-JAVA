@@ -11,7 +11,7 @@ public class fibire {
     }
 
     public static void main(String[] args) {
-        int n = 5;
+        int n = 9;
         System.out.println(fibic(n));
     }
 }
