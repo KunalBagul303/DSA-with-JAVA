@@ -11,7 +11,7 @@ public class palim {
     }
 
     public static void main(String[] args) {
-        String str = "racecar";
+        String str = "kunal";
         palindrom(str);
     }
 }
