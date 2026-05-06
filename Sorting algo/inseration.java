@@ -27,7 +27,7 @@ public class inseration {
 
 
     public static void main(String[] args) {
-        int arr[] = {2,3,6,9};
+        int arr[] = {2,9};
         inserationSort(arr);
         printarr(arr);
     }
