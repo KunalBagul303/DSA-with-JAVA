@@ -18,4 +18,6 @@ public class multi10 {
             System.out.print(newArray[i] + " ");
         }
     }
+
+  
 }
