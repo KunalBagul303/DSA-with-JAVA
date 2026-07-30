@@ -16,7 +16,14 @@ public class maxi {
     }
 
 
-
+    public static int swap(int[] arr){
+        for(int i=0; i<arr.length; i++){
+            int temp = arr[i+1];
+            arr[i+1] = arr[i];
+            arr[i] = temp;
+        }
+        return -1;
+    }
 
     public static int[] zeroone(int[] arr) {
         int zero = 0;
@@ -58,8 +65,16 @@ public class maxi {
     public static void main(String[] args) {
         int[] arr = {1,2,4,5,6,2,8,9};
 
-        int ans = getunsortedele(arr);
-        System.out.println(ans);
+        int swap = arr.length;
+        int[] newArray = new int[swap];
+
+        for(int i=0; i<swap; i++){
+            System.out.println(newArray[i]);
+        }
+
+
+        // int ans = getunsortedele(arr);
+        // System.out.println(ans);
 
         // int ans = maxi(arr);
         // System.out.println(ans);
