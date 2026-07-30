@@ -35,6 +35,16 @@ public class maxi {
 
 
 
+    public static int getunsortedele(int arr[]){
+        for(int i=0; i<arr.length; i++){
+            if(arr[i+1] <= arr[i]){
+                return arr[i+1];
+            }
+        }
+        return -1;
+    }
+
+
     public static int maxi(int[] arr) {
         int maxi = arr[0];
         for (int i = 0; i < arr.length; i++) {
@@ -46,14 +56,17 @@ public class maxi {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 1,1,0,0,0,1,1,0,0,1,0 };
+        int[] arr = {1,2,4,5,6,2,8,9};
+
+        int ans = getunsortedele(arr);
+        System.out.println(ans);
 
         // int ans = maxi(arr);
         // System.out.println(ans);
 
-        int[] ans = zeroone(arr);
-        System.out.println("zero sum = " + ans[0]);
-        System.out.println("one sum = " + ans[1]);
+        // int[] ans = zeroone(arr);
+        // System.out.println("zero sum = " + ans[0]);
+        // System.out.println("one sum = " + ans[1]);
 
     }
 
