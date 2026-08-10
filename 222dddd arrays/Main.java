@@ -3,24 +3,20 @@ import java.util.*;
 public class Main {
 
     public static List<Integer> rowSums(int[][] arr) {
-
+        List<Integer> result =  new ArrayList<>();
         int m = arr.length;
         int n = arr[0].length;
 
-        List<Integer> result = new ArrayList<>();
-
-        for (int row = 0; row < m; row++) {
-
+        for(int col=0; col<n; col++){
             int sum = 0;
-
-            for (int col = 0; col < n; col++) {
-                sum = sum + arr[row][col];
+            for(int row=0; row<m; row++){
+                int value = arr[row][col];
+                sum =  sum + value;
             }
-
             result.add(sum);
         }
-
         return result;
+       
     }
 
     public static void main(String[] args) {
