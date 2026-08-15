@@ -2,7 +2,7 @@ public class numocc {
     public static void main(String[] args) {
 
         // Input Array
-        int[] arr = {1, 2, 4, 4, 4, 6, 8};
+        int[] arr = {1, 2, 4, 4, 4, 6};
 
         // Target element
         int target = 4;
